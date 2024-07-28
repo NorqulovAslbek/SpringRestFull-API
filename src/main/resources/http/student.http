@@ -9,7 +9,7 @@
 #}
 
 ///// bu studentni id bo'yicha qidish uchun
-GET localhost:8080/student/ee5ca4ec-1a31-4cd7-912c-a3c372a518a0
+#GET localhost:8080/student/ee5ca4ec-1a31-4cd7-912c-a3c372a518a0
 #
 #/ bu studentni malumotlarini update qilish uchun ishalatiladigan method hisoblanadi
 #PUT  localhost:8080/student/{96ee613f-3d9d-4eee-9914-468b5f5d4b7b}
@@ -23,3 +23,9 @@ GET localhost:8080/student/ee5ca4ec-1a31-4cd7-912c-a3c372a518a0
 #
 #/ bu studentni malumotlarini ochirish uchun ishlatiladigan method hisoblanadi
 #DELETE localhost:8080/student/96ee613f-3d9d-4eee-9914-468b5f5d4b7b
+
+
+GET localhost:8080/dog/all
+Content-Type: application/json
+Authorization: kakdsfdgfhgdfsdddasdfsgfdafsad
+Accept-Language: UZ
