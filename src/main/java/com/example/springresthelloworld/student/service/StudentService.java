@@ -19,7 +19,7 @@ public class StudentService {
                 return student;
             }
         }
-        throw new AppBadException(" bunaqa nomli student topilmadi!")
+        throw new AppBadException(" bunaqa nomli student topilmadi!");
     }
 
 
